@@ -1,27 +1,15 @@
+.term{
+    margin-top: 0px;
+    float: right;
+    display: inline-flex;
+    list-style:none;
+}
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-
 }
 .grid-item{
-    background-color: white;
-    text-align: center;
-    border: 0px solid rgb(180, 125, 125);
-    padding: 20px;
-    font-family: sans-serif;
-}
-.item1{
-    text-align: center;
-}
-.flex-container{
-    display: flex;
-    justify-items: center;
-    background-color: rgba(221, 138, 138, 0.658);
-    flex-direction: row;
-    padding: 10px;
-    height: 200px;
-}
-.flex-item{
-    background-color: brown;
-    min-height: 10px;
+    background-color:antiquewhite;
+    text-decoration: dotted;
+    font-size: 20;
 }
