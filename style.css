@@ -1,3 +1,25 @@
+.huda{
+    position: relative;
+    display: flex;
+}
+nav{
+    margin-top: 10px;
+    width: 100px;
+    position: static;
+}
+nav ul{
+    margin-top: 5px;
+    width:auto;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+}
+.anam{
+    justify-content:space-between;
+    position: absolute;
+}
 .term{
     margin-top: 0px;
     float: right;
@@ -7,9 +29,76 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
+    padding: 8px 200px 10px 200px;
 }
 .grid-item{
-    background-color:antiquewhite;
-    text-decoration: dotted;
-    font-size: 20;
+    background-color:white;
+    text-align: center;
+    color:black;
+    padding: 2px 20px 5px;
+}
+.image1{
+    height: 350px;
+    width: 320;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    background-color:peru;
+}
+.bg img{
+    background-image: url(Images/fashion.jpg);
+    background-position: center;
+    height: 50px;
+    width: 600px;
+}
+h3{
+    color: maroon;
+}
+i{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    padding:30px;
+    grid-gap: 5px;
+}
+.image2{
+    height: 330px;
+    width: 260px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 200px;
+    margin: 5px 260px 5px 260px;
+    padding: 0px 70px 10px 210px;
+}
+.image3{
+    height: 120px;
+    width: 120px;
+}
+h3{
+    color:peru;
+    font-size: 25px;
+}
+h4{
+    font-size: 15px;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0px;
+    background-color:black;
+    color:white;
+    margin-top: 80px;
+}
+.grid-item3{
+    padding: 30px;
+    text-align: center;
 }
