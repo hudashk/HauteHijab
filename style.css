@@ -1,21 +1,22 @@
 .box{
     position: relative;
     display: flex;
+    justify-content: space-between;
+    background-color:pink;
 
 }
 .place{
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    padding: 0px 450px 0px 0px;
+    position:relative;
+    font-size: 30px;
+    padding-right: 20px;
 }
-nav ul{ 
+nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     list-style: none;
-    padding-bottom: 50px;
-    grid-gap: 60px;
+    padding-bottom: 0px;
+    grid-gap: 60px; 
 }
 .bg img{
     background-position: center;
@@ -80,7 +81,7 @@ i{
     width: 120px;
 }
 h3{
-    color:peru;
+    color:palevioletred;
     font-size: 25px;
 }
 h4{
@@ -100,4 +101,30 @@ h4{
 }
 .text2{
     text-align:center;
+}
+@media only screen and (max-width: 600px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 8px 200px 10px 200px;
+    }
+     
+    .box{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color:pink;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 8px 200px 10px 200px;
+    }
+    .grid-item{
+        background-color:white;
+        text-align: center;
+        color:black;
+        padding: 2px 20px 5px;
+    }
 }
