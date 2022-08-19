@@ -60,8 +60,9 @@ i{
     padding: 0px 100px 10px 210px;
 }
 .image3{
-    height: 100px;
-    width: 120px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
 }
 h3{
     color:palevioletred;
@@ -91,7 +92,7 @@ h4{
         grid-template-columns: auto auto auto;
         padding: 8px 200px 10px 200px;
     }
-     
+    
     .box{
         position: relative;
         display: flex;
